@@ -1,0 +1,20 @@
+{
+  "name": "realm-js-4191",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An attempt at reproducing https://github.com/realm/realm-js/issues/4191",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Kræn Hansen <kraen.hansen@mongodb.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.5.8",
+    "electron": "^16.0.7",
+    "graphql-tag": "^2.12.6",
+    "jsonwebtoken": "^8.5.1",
+    "realm": "^10.10.1"
+  }
+}
